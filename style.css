@@ -1,0 +1,135 @@
+body {
+    font-family: "Reddit Mono", monospace;
+    margin: 0 auto;
+}
+
+header { 
+    height: 400px;
+    background-image: url(assets/foto_page.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+
+.logo { 
+    display: flex;
+    justify-content: center;
+    color: rgb(243, 140, 140);
+    text-shadow: 2px 3px 2px black;
+}
+
+.nav-link { 
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+nav a { 
+    text-decoration: none;
+    color: blanchedalmond;
+
+
+}
+
+nav a:hover { 
+    color: rgb(247, 143, 143);
+    transition: color 0,3s ease;
+}
+
+.contenedor { 
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section h2 { 
+    text-shadow: 2px 2px 1px rgb(243, 140, 140) ;
+
+}
+
+section p { 
+    width: 50%;
+}
+
+
+.images { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    transition: all;
+
+}
+
+
+.rem { 
+    border: 1px solid black;
+}
+
+.cam { 
+    border: 1px solid black;
+}
+
+.zap { 
+    border: 1px solid black;
+}
+
+.pant { 
+    border: 1px solid black;
+}
+
+.name { 
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content:space-evenly;
+}
+
+.rem:hover {
+    box-shadow: 0 0.1rem 0.4rem blue;
+    cursor: pointer;
+}
+.cam:hover {
+    box-shadow: 0 0.1rem 0.4rem blue;
+    cursor: pointer;
+}
+.zap:hover {
+    box-shadow: 0 0.1rem 0.4rem blue;
+    cursor: pointer;
+}
+.pant:hover {
+    box-shadow: 0 0.1rem 0.4rem blue;
+    cursor: pointer;
+}
+
+
+footer { 
+    
+    background-color: gray;
+}
+h4 { 
+    text-align: center;
+    color: rgb(250, 139, 135);
+    text-shadow: 1px 1px 1px black;
+}
+
+ul { 
+    list-style-type: none;
+}
+
+li a { 
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px 2px rgb(51, 48, 48);
+}
+li a:hover { 
+    color: rgb(250, 149, 149);
+    transition: 0.5seg ease;
+}
